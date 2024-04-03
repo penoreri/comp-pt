@@ -1,2 +1,1 @@
-# comp-pt
-test-test-test-test
+Name of the game: sdfgh
