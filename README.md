@@ -2,4 +2,6 @@
 
 ====================================
 
-I don wanna do dis
+Memory Test
+
+Guess the word
