@@ -6,6 +6,9 @@ from tkinter import *
 
 game_open = Tk()
 game_open.geometry("1920x1080")
+game_open.title("Scrabble")
+game_open.minsize(980, 480)
+game_open.maxsize(3840, 2160)
 
 animal_options = ['Dog','Cat','Lion','Tiger','Elephant',
                   'Zebra','Parrot','Panda','Chicken','Duck','Turkey']
