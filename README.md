@@ -1,9 +1,9 @@
-# Game Name.
+## Scramble
 
 ====================================
 
-Memory Test
+short explanation here
 
-Guess the word
+mechanics of the game
 
->kms
+code explanation:
