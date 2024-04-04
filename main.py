@@ -2,6 +2,8 @@ import random
 import time
 from tkinter import *
 
+#-----------------------------------#
+
 game_open = Tk()
 game_open.geometry("1920x1080")
 
@@ -23,4 +25,5 @@ def new_game():
 def check_word():
     guessed_word = entry_guess.get().lower()
 
+#--------------------------------#
 game_open.mainloop()
