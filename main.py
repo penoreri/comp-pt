@@ -10,6 +10,9 @@ game_open.title("Scrabble")
 game_open.minsize(980, 480)
 game_open.maxsize(3840, 2160)
 
+#game_open.attributes('-fullscreen',True)
+#needed later
+
 animal_options = ['Dog','Cat','Lion','Tiger','Elephant',
                   'Zebra','Parrot','Panda','Chicken','Duck','Turkey']
 chosen_word = ""
