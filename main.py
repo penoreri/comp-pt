@@ -44,6 +44,8 @@ def back_to_front_page():
 
 root = tk.Tk()
 root.title("Animal Word Scramble Game")
+root.geometry("1920x1080")
+root.minsize(920, 480)
 
 front_page = tk.Frame(root)
 front_page.pack()
