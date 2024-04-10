@@ -62,11 +62,11 @@ def settings():
     mode = tk.Label(settings_page, text ="Mode")
     mode.pack()
 
-    dark_mode = tk.Button(settings_page, text ="Dark Mode")
-    dark_mode.pack()
+    win_mode = tk.Button(settings_page, text ="Windowed Mode")
+    win_mode.pack()
 
-    light_mode = tk.Button(settings_page, text ="Light Mode")
-    light_mode.pack()
+    full_mode = tk.Button(settings_page, text ="Fullscreen Mode")
+    full_mode.pack()
 
     front_page.pack_forget()
     settings_button.pack_forget()
