@@ -1,6 +1,4 @@
 ## Animal Word Scramble
 
-====================================
-
 ### Introduction
 
