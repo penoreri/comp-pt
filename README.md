@@ -1,6 +1,6 @@
-## Scramble
+## Animal Word Scramble
 
 ====================================
 
-what the hell chat, is this real??
+### Introduction
 
