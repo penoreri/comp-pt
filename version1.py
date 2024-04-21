@@ -40,7 +40,7 @@ def check_word():
         lbl_result.config(text="Incorrect. Try again!")
 
 #restart
-def restart_game():
+def new_word():
     global hint_count
     main_page.pack_forget()
     lbl_hint.config(text='')
@@ -120,9 +120,9 @@ btn_check.pack()
 lbl_result = tk.Label(main_page, text="", font=('Arial', 16, 'bold'), bg = '#C39BD3', fg = '#EBDEF0')
 lbl_result.pack()
 
-btn_new_game = tk.Button(main_page, text="New Country", font=('Arial', 16, 'bold'), bg = '#A569BD', fg = '#EBDEF0', bd = 0,
-                        relief = 'sunken', activebackground ='white', activeforeground = 'black', command=restart_game)
-btn_new_game.pack()
+btn_new_word = tk.Button(main_page, text="New Country", font=('Arial', 16, 'bold'), bg = '#A569BD', fg = '#EBDEF0', bd = 0,
+                        relief = 'sunken', activebackground ='white', activeforeground = 'black', command=new_word)
+btn_new_word.pack()
 
 btn_back = tk.Button(main_page, text="Back", font = ('Arial', 16, 'bold'), bg = '#A569BD', fg = '#EBDEF0', bd = 0,
                         relief = 'sunken', activebackground ='white', activeforeground = 'black', command=back_to_front_page)
