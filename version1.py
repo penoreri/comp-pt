@@ -124,11 +124,11 @@ btn_new_game = tk.Button(main_page, text="New Country", font=('Arial', 16, 'bold
                         relief = 'sunken', activebackground ='white', activeforeground = 'black', command=restart_game)
 btn_new_game.pack()
 
-btn_back = tk.Button(main_page, text="Back", font = ('Arial', 16, 'bold'), bg = '#A569BD', fg = 'white', bd = 0,
+btn_back = tk.Button(main_page, text="Back", font = ('Arial', 16, 'bold'), bg = '#A569BD', fg = '#EBDEF0', bd = 0,
                         relief = 'sunken', activebackground ='white', activeforeground = 'black', command=back_to_front_page)
 btn_back.pack(pady= 2)
 
-hint_btn = tk.Button(main_page, text="Hint", font = ('Arial', 16, 'bold'), bg = '#A569BD', fg = 'white', bd = 0,
+hint_btn = tk.Button(main_page, text="Hint", font = ('Arial', 16, 'bold'), bg = '#A569BD', fg = '#EBDEF0', bd = 0,
                         relief = 'sunken', activebackground ='white', activeforeground = 'black', width = 4, command=lambda: word_hint(hint_count))
 hint_btn.pack(pady= 2)
 
