@@ -4,11 +4,10 @@ import random
 #different functions
 #-------------------------------------------------------------------------------------------
 countries = ['singapore', 'russia', 'thailand', 'philippines', 'china', 'vietnam', 'japan', 'afghanistan',
-            'cambodia', 'indonesia']
+            'cambodia', 'indonesia','south korea','taiwan','kazakhstan','india','bangladesh']
 
 current_word = ""
 score = 0
-hint_count = 0
 
 #scrambling of words
 def scramble_word(word):
@@ -18,9 +17,11 @@ def scramble_word(word):
 
 #starting a new game
 def new_game():
-    global current_word
+    global current_word, hint_count
     current_word = random.choice(countries)
     scrambled_word = scramble_word(current_word)
+    hint_count = 0
+    lbl_hint.config(text='')
     lbl_word.config(text=scrambled_word)
     lbl_score.config(text=f"Score: {score}")
     lbl_result.config(text="")
