@@ -10,4 +10,4 @@
 
 -Make sure those 2 files are in the folder
 
--Enjoy
+-run the code
