@@ -4,7 +4,7 @@
 
 -Create a folder name it what you want
 
--Download the newest game code: 'v2.py'
+-Download the newest game code or just copy and paste it: 'v2.py'
 
 -Download the main background: 'mainbgfinal.png'
 
