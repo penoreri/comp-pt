@@ -10,4 +10,6 @@
 
 -Make sure those 2 files are in the folder
 
--run the code
+-Open then run the code
+
+-Enjoy.
